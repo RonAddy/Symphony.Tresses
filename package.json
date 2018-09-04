@@ -1,0 +1,30 @@
+{
+  "name": "twilight_tresses",
+  "version": "1.0.0",
+  "description": "Quality wigs, hand-made with care",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RonAddy/Twilight_Tresses.git"
+  },
+  "keywords": [
+    "wigs",
+    "tresses",
+    "nyc",
+    "new",
+    "york"
+  ],
+  "author": "Ron Addy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RonAddy/Twilight_Tresses/issues"
+  },
+  "homepage": "https://github.com/RonAddy/Twilight_Tresses#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "morgan": "^1.9.0"
+  }
+}
