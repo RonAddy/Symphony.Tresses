@@ -25,7 +25,8 @@
   },
   "homepage": "https://github.com/RonAddy/Twilight_Tresses#readme",
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "mongodb": "^3.1.4"
   },
   "devDependencies": {
     "morgan": "^1.9.0",
