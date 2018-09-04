@@ -16,7 +16,6 @@ app.listen(PORT, () => {
   console.log(`🤖 Listening on port ${PORT}`);
 });
 
-
 // handles error messages to paths that are not detailed here
 app.use('*', (req, res) => {
   res.status(400).json({
