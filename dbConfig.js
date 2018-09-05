@@ -4,7 +4,7 @@ const MongoClient = require('mongodb').MongoClient;
 const url = 'mongodb://localhost:27017/';
  
 // Database Name
-const dbName = 'symphony.tresses_dev';
+const dbName = 'symphony_tresses_dev';
 
 let User;
 let Product;
@@ -12,7 +12,7 @@ let User_Product;
 
 // Use connect method to connect to the server
 MongoClient.connect(url, function(err, client) {
-  console.log("Connected successfully to symphony.tresses db");
+  console.log("Connected successfully to symphony_tresses db");
   const db = client.db(dbName);
 
   db.createCollection("user", function(err, res){
