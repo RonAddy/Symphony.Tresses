@@ -31,9 +31,15 @@ module.exports = {
   //  publicPath - where the bundled code is
   devServer: {
     contentBase: path.join(__dirname, "public/"),
-    port: 3000,
-    publicPath: "http://localhost:3000/dist/",
-    hotOnly: true
+    port: 3001,
+    publicPath: "http://localhost:3001/dist/",
+    hotOnly: true,
+    proxy: {
+      '/api/*': {
+          target: 'http://localhost:3000',
+          secure: false
+      }
+    }
   },
   plugins: [ new webpack.HotModuleReplacementPlugin() ]
 }
