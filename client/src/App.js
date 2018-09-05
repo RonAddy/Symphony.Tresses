@@ -1,6 +1,8 @@
 import React, {Component} from "react";
 import {hot} from "react-hot-loader";
-import Footer from './components/Footer.jsx'
+
+import Nav from './components/Nav.jsx';
+import Footer from './components/Footer.jsx';
 
 class App extends Component{
   constructor(props){
@@ -25,6 +27,7 @@ class App extends Component{
   render() {
     return (
       <div>
+        <Nav />
         {this.state.test ? <h1>{this.state.test}</h1> : <h1>Loading.....</h1>}
         <Footer />
       </div>

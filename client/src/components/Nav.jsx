@@ -12,4 +12,4 @@ const Nav = (props) => (
   </ul>
 ) 
 
-export default Footer;
+export default Nav;
