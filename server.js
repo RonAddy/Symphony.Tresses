@@ -1,5 +1,5 @@
 const bodyParser = require('body-parser');
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3000;
 const express = require('express');
 const logger = require('morgan');
 const path = require('path');
@@ -9,12 +9,18 @@ const app = express();
 //Setup middleware
 app.use(logger('dev'));
 app.use(bodyParser.json());
-app.use(express.static('client'));
 app.use(bodyParser.urlencoded({extended: false}));
 
 app.listen(PORT, () => {
   console.log(`🤖 Listening on port ${PORT}`);
 });
+
+
+app.get('/api', (req, res) => {
+  console.log('Hit the endpoint');
+  res.json({test:'you did it!!'});
+})
+
 
 // handles error messages to paths that are not detailed here
 app.use('*', (req, res) => {
