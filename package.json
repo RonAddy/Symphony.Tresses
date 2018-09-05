@@ -1,5 +1,5 @@
 {
-  "name": "twilight_tresses",
+  "name": "Symphony.Tresses",
   "version": "1.0.0",
   "description": "Quality wigs, hand-made with care",
   "main": "server.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RonAddy/Twilight_Tresses.git"
+    "url": "git+https://github.com/RonAddy/Symphony.Tresses.git"
   },
   "keywords": [
     "wigs",
@@ -21,9 +21,9 @@
   "author": "Ron Addy",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/RonAddy/Twilight_Tresses/issues"
+    "url": "https://github.com/RonAddy/Symphony.Tresses/issues"
   },
-  "homepage": "https://github.com/RonAddy/Twilight_Tresses#readme",
+  "homepage": "https://github.com/RonAddy/Symphony.Tresses#readme",
   "dependencies": {
     "express": "^4.16.3",
     "mongodb": "^3.1.4"
