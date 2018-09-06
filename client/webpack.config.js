@@ -9,7 +9,7 @@ module.exports = {
   //publicPath property will be used by webpack-dev-server to properly serve website
   output: {
     path: path.resolve(__dirname, "dist/"),
-    publicPath: "/dist/",
+    publicPath: "./dist/",
     filename: "bundle.js"
   },
   module: {
@@ -23,6 +23,11 @@ module.exports = {
       {
         test: /\.css$/,
         use: [ 'style-loader', 'css-loader' ]
+      },
+      {
+        test: /\.(png|svg|jpg|gif)$/,
+        use: ['file-loader']
+        
       }
     ]
   },

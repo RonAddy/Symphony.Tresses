@@ -18,7 +18,7 @@ app.listen(PORT, () => {
 
 app.get('/api', (req, res) => {
   console.log('Hit the endpoint');
-  res.json({test:'you did it!!'});
+  res.send({test:'JOEL is here!!!!!!!!!'});
 })
 
 

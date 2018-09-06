@@ -1,0 +1,18 @@
+#footer {
+  background-color: #262842;
+  bottom: 0;
+  height: 20vh;
+}
+
+#subscribe {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 10vw;
+}
+
+#subscribe > button {
+  margin: .5em auto;
+  width: 5vw;
+
+}

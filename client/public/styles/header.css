@@ -1,0 +1,22 @@
+#nav {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 50%;
+  margin: auto;
+}
+
+#nav > li {
+  flex: 1;
+  border-bottom: 5px solid #862F3F;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+  /* width: 45vw; */
+  padding:0 1.75vw;
+  text-align: center;
+  margin: 0 6% 0 6%;
+}
+
+#nav > li:hover {
+  border-bottom-color: #E73A38;
+}

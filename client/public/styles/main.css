@@ -1,3 +1,22 @@
 body {
   background-color: pink;
 }
+
+h1,h2 {
+  font-size: 2em;
+}
+
+
+#header_logo {
+  background: transparent url('../images/placeholder_logo.png') center center no-repeat;
+  background-size: contain;
+  height: 35vh;
+  width: 35vw;
+  margin: 2vh auto 1vh auto;
+}
+
+#color_palette {
+  background: transparent url('../images/color_palette.png') center center no-repeat;
+  display: fixed;
+  height: 45vh;
+}
